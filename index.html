@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="JamesGowdy.github.io : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>JamesGowdy.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jamesgowdy">View on GitHub</a>
+
+          <h1 id="project_title">JamesGowdy.github.io</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="biophysics-lab-notes" class="anchor" href="#biophysics-lab-notes"><span class="octicon octicon-link"></span></a>Biophysics lab notes</h3>
+
+<p>The notebooks in this repository are meant as notes on topics relevant to my PhD either:</p>
+
+<ul>
+<li>Directly such as the crystallography, FT, eigenvalues of rotation and data reduction topics </li>
+<li>Or indirectly as topics mentioned/assumed in litature which I have read in an attempt to answer research questions</li>
+</ul><p>They can be rendered online using nbviewer by clicking the links provided below or alternatively they can be downloaded from the repository homepage and run/edited locally with ipython using the notebook option. </p>
+
+<ul>
+<li>Series and transforms stuff
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/series.ipynb">Taylor series expansion and series convergence conditions</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/fourierseries.ipynb">Fourier series and Fourier synthesis</a></li>
+</ul>
+</li>
+<li>Linear Algebra/ Numerical analysis
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/inverse.ipynb">Determinant calculation and matrix inversion with symbolic algebra</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/gaussjordan_gaussian_LU.ipynb">Gauss-Jordan elimination, Gaussian elimination, LU decomposition, Gauss-Seidel, Jacobi method</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/eigen.ipynb">Eigenvectors and eigenvalues</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/gramschmidt.ipynb">Vector projections and Gram Schmidt orthogonalisation</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/QR.ipynb">QR decomposition, Householder reductions, Givens transformations</a></li>
+</ul>
+</li>
+<li>
+<a href="https://github.com/jamesgowdy/biophys/blob/master/optimise.md">Mathematical optimisation</a>
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/simplex.ipynb">Simplex, two-phase simplex, and 'big M' simplex method</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/leastsquares.ipynb">Least squares and nD polynomial regression</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/gradientdescent.ipynb">Gradient descent</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/conjugatedescent.ipynb">Conjugate and biconjugate gradient method</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/lagrangemult.ipynb">Lagrange multipliers and stationary points of multivariate functions</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/levenberg_marquardt.ipynb">Newton-Raphson vs. Gauss-Newton vs. Levenberg-Marquardt</a></li>
+</ul>
+</li>
+<li>Dimensionality reduction and machine learning
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/SVD.ipynb">SVD - unfinished</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/PCA.ipynb">PCA - unfinished</a></li>
+</ul>
+</li>
+<li>Basic I/O functionality
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/mmcif_io.ipynb">Basic mmCIF input/output</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/pdb_io.ipynb">Basic PDB input/output</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/dcd_io.ipynb">Basic DCD input/output and RMSD calculations</a></li>
+</ul>
+</li>
+<li>Crystallography
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/sf_directsum.ipynb">Structure factor calculation by direct summation</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/sf_cctbx.ipynb">Structure factor calculation in CCTBX explained</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/density_sampling.ipynb">Density sampling</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/recip_latt.ipynb">The reciprocal lattice and metric tensor</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/sf_1d.ipynb">DRAFT: Intuition of structure factors as projections of 1D electron density</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/sf_1d_subseries.ipynb">DRAFT: Investigating 'signature reflections' using a 1D toy system</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/cctbx.ipynb">How to import CCTBX in iPython</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/foxtrot.ipynb">How to install Soleil's FoxTrot</a></li>
+</ul>
+</li>
+<li>Physics
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/waveequation.ipynb">The nD plane wave</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/polymer1.ipynb">Random walks and demonstration of N<sup>1/2</sup> scaling - unfinished</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/polymer2.ipynb">Theoretical polymer models - unfinished</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/normalmodes.ipynb">Normal modes - unfinished</a></li>
+</ul>
+</li>
+<li>Other random mathsy notes
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/calculus.ipynb">Single variable differential calculus</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/veccalculus.ipynb">Multivariate (vector and partial) differential calculus</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/integrals.ipynb">List of integrals and trigonometric identities</a></li>
+</ul>
+</li>
+<li>Biochemistry
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/buffer_calc.ipynb">Buffer component calculations</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/biophys/blob/master/protoparam.ipynb">Calculation of molar extinction coefficents for proteins</a></li>
+</ul>
+</li>
+</ul><h3>
+<a name="python-standard-library-examples" class="anchor" href="#python-standard-library-examples"><span class="octicon octicon-link"></span></a>Python standard library examples</h3>
+
+<p>After having rewritten a program several times after finding more elegant ways to do the same thing, I decided it would be a worthwhile investment to properly explore the full standard library. I have therefore written these scripts as short how-to examples/recipes/demos/reference notes for myself on modules in the standard library. All code is my own.</p>
+
+<ul>
+<li>C/C++ python extensions (python-dev should be installed)
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/run_setup.py">distutils</a>: my wrapper to build library files via a templated script which executes distutil setup functionality</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/distutils_example.py">distutils (basic)</a>: basic c/c++ python extension library building functionality</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/api_example.c">api_example.c</a>: simple importable (wrapped) c functions, dynamic memory allocolation, reference counting</li>
+</ul>
+</li>
+<li>GUI programming with Tkinter
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example.py">Tkinter 1</a>: 3 very basic GUIs, Labels, fonts, images; Frames; Buttons; binding event handlers to widgets and messages, use PIL for images</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example2.py">Tkinter 2</a>: Menus, toolbars, statusbars, dialog, and data input</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example3.py">Tkinter 3</a>: File opening/saving dialog, hack to suppress an error message on mac</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example4.py">Tkinter 4</a>: Bitmap buttons, custom LargeTextButton widget class</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example5.py">Tkinter 5</a>: Top level/ pop-up windows, nested event loops</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example5.py">Tkinter 6</a>: Gridded widgets (calculator app)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example7.py">Tkinter 7</a>: Checkbutton widgets (text2int app)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example8.py">Tkinter 8</a>: Radiobutton widgets, with shared variables (text2int app)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example9.py">Tkinter 9</a>: Canvas widgets</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example10.py">Tkinter 10</a>: Drag and drop canvas</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example11.py">Tkinter 11</a>: Text widget, (web reader app)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example12.py">Tkinter 12</a>: LabelFrame, Scrollbar, Listbox widget &amp; self updating/auto recall</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/tkinter_example13.py">Tkinter 13</a>: Scrollbar and setting window size</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/ttk_example.py">ttk 1</a>: Progressbar widgets and auto recall</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/ttk_example.py">ttk 2</a>: Treeview (file system reader app) </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/ttk_example.py">ttk 3</a>: Notebook, hack to get scrollbar to work in tabs (ScrollCanvasPage class)
+Note: Use Apple's default python (built with Clang) when running the Tkinter GUI, since the Tkinter module in the anaconda intsall make the GUIs look like they do on Linux!</li>
+</ul>
+</li>
+<li>Multi-threading and queues
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/thread_example.py">thread</a>: run two+ thrads in unison</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/threading_example.py">threading1</a>: download files, carry out calculations in background, the Thread class, logging </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/threading_example2.py">threading2</a>: communicate between slave/main threads with a Queue, and detect KeyboardInterrupt</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/threading_example3.py">threading3</a>: same as above but dynamically allocate jobs</li>
+</ul>
+</li>
+<li>Servers and sockets and CGI programming
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/socket_example1.py">socket1</a>: listens and talks to socket2, try/finally construct usage</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/socket_example2.py">socket2</a>: talks and listens to socket1</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/cgi-bin/example.py">cgi1</a>: user input form and reply uses <a href="https://github.com/jamesgowdy/examples/blob/master/example.html">example.html</a>
+</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/cgi-bin/cgi.example2.py">cgi2</a>: more complex user input/reply (HKL2resolution app) uses <a href="https://github.com/jamesgowdy/examples/blob/master/example2.html">example2.html</a> and <a href="https://github.com/jamesgowdy/examples/blob/master/example2.reply.html">example2.reply.html</a>
+</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/HTTPServer_example.py">HTTPServer</a>: set up HTTPServer on localhost to run CGI scripts from
+All cgi scripts should be placed in a cgi-bin directory and made executable. HTTPSever and HTML templates are one directory up from cgi-bin. After running server open the HTML files in firefox at &lt;ipaddress&gt;:&lt;port&gt;/example.html </li>
+</ul>
+</li>
+<li>Regex, string manipulation
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/re_example.py">re</a>: lots and lots of regular expression examples</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/unicodedata_example.py">unicodedata</a>: read/print the unicode symbols to the terminal</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/string_example.py">string</a>: old/new formatting sub-languages, template strings</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/textwrap_example.py">textwrap</a>: useful only for dedent<br>
+</li>
+</ul>
+</li>
+<li>Curses (coloured printing to terminal) and pprint
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/curses_example.py">curses1</a>: print to terminal in color/bold/underlined/italics</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/curses_wrapper_example.py">curses2</a>: standard screen (app takes user input to display different colors), hack implemented as a main function wrapper to ensure keyboard responisive, try/finally construct used </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/pprint_example.py">pprint</a>: pretty object printing</li>
+</ul>
+</li>
+<li>Readng HTML and downloading etc
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/HTMLParser_example.py">HTMLParser1</a>: basic use of HTMLParser class to read website data (e.g. download and pull out the IUCR index neatly)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/HTMLParser2_example.py">HTMLParser2</a>: more handles, connects to a CGI script on the localhost</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/xml_example.py">xml</a>: Parses example.xml using SAX or DOM handlers</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/urllib_example.py">urlib</a>: very basic (download a PDB file) see also Tkinter11 for more complicated use</li>
+</ul>
+</li>
+<li>Useful functions and classes
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/collections_example.py">collections</a>: including defaultdict, Counter, namedtuple, OrderedDict (download stock trading info), some custom subclasses</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/itertools_example.py">itertools1</a>: clever functions such as takewhile, groupby and compress</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/itertools_example2.py">itertools2</a>: combinations etc.</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/partial_example.py">functools1</a>: partial functions</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/decorator_example.py">functools2</a>: decorators</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/total_ordering_example.py">functools3</a>: total ordering</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/operator_example.py">operator</a>: maths operators as functions</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/copy_example.py">copy</a>: including deepcopy for list of lists.</li>
+</ul>
+</li>
+<li>Data and persistence
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/struct_example.py">struct</a>: read/write binary (e.g. read DCD file)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/pickle_example.py">pickle</a>: use cpickle instead </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/shelve_example.py">shelve</a>: persistence archive like a dictionary </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/sqlite3_example.py">sqlite3</a>: connecting to the squlite database</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/csv_example.py">csv</a>: read/write .csv format files </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/xlrd_example.py">xlrd/xlwt/xlutils</a>: read and write excel .xml files (3rd party)</li>
+</ul>
+</li>
+<li>Math/sorting
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/cmath_example.py">cmath</a>: complex math</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/random_example.py">random</a>: psudeo-random numbers and distributions</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/fractions_example.py">fractions</a>: floats as fractions using limit_denominator, GCD calculation</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/decimal_example.py">decimal</a>: decimal floating point numbers rather than binary floating point</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/set_example.py">set</a>: built-in set methods</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/bisect_example.py">bisect</a>: sort algorithm if appending and resorting</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/heapq_example.py">heapq</a>: sort algorithm</li>
+</ul>
+</li>
+<li>System and OS tools
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/sys_example.py">sys</a>: interpretter parameters</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/os_example.py">os1</a>: environmental variables, functions similar to shutil, nice, change creation time parameters etc.</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/os_kill_example.py">os2</a>: watch a process (given by process ID) and report on status </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/os_walk_example.py">os3</a>: walk down a file tree (2 implementations)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/os_path_example.py">os4</a>: OS specific path manipultaion, size of file</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/shutil_example.py">shutil</a>: access functions like mv, rm, cp etc. </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/glob_example.py">glob</a>: use wildcards when searching file directory (e.g. *.py file sizes)</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/psutils_example.py">psutils</a>: monitor system usage (3rd party)</li>
+</ul>
+</li>
+<li>CLI mode
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/cmd_example.py">cmd</a>: run a program interactively via terminal with tab completion, subclass and overwrite Cmd method, and write own 'do' methods<br>
+</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/argparse_example.py">argparse</a>: sophistcated argument parsing vs. simple DIY parser</li>
+</ul>
+</li>
+<li>Coding tools
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/inspect_example.py">inspect</a>: inspect different levels of the stack (e.g. before functions are called) or inspect object properties (e.g. function arguments) not as elegant as traceback2</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/traceback_example.py">traceback1</a>: parse a function call without regex, not as elegant as given in traceback2 or inspect </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/traceback_example2.py">traceback2</a>: parse function call with regex</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/doctest_example.py">doctest</a>: Test examples (e.g. factorial) in doc strings</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/rlcompleter_example.py">rlcompleter</a>: use with readline to get IPython like tab completion</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/readline_example.py">readline</a>: same as above with vim-like raw input</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/imp_example.py">imp</a>: import modules by filename, warning suppression using with context manager</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/profile_example.py">profile</a>: time code (bisect vs. built-in sort)</li>
+</ul>
+</li>
+<li>Logging and warnings
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/logging_example.py">logging1</a>: different levels of logging (boring), control warning stacklevel</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/logging_example2.py">logging2</a>: log formatter template</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/warnings_example.py">warnings</a>: raise warnings rather than errors</li>
+</ul>
+</li>
+<li>Time and date
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/time_example.py">time</a>: current epoch time, and custom code timing context manager class</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/datetime_example.py">datetime</a>: convert times and timedeltas</li>
+</ul>
+</li>
+<li>Other: run command files, HOWTOs
+
+<ul>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/vim_example.md">vim commands</a>: custom syntax, copy from clipboard, hardcopy printing, etc.</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/bash_example.md">bash commands</a>: file/os level management in bash </li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/.vimrc">.vimrc</a>: clever indenting, statusbar formatting, printer setup</li>
+<li>
+<a href="https://github.com/jamesgowdy/examples/blob/master/.pythonrc">.pythonrc</a>: my mac PYTHONSTARTUP file using <a href="https://github.com/jamesgowdy/examples/blob/master/pythonrc.png">colour printing</a> display hook with rebound REPL</li>
+</ul>
+</li>
+<li>Sphinx compatible docstrings (external)
+
+<ul>
+<li><a href="http://matplotlib.org/sampledoc/cheatsheet.html#making-a-list">http://matplotlib.org/sampledoc/cheatsheet.html#making-a-list</a></li>
+<li><a href="https://pythonhosted.org/an_example_pypi_project/sphinx.html">https://pythonhosted.org/an_example_pypi_project/sphinx.html</a></li>
+<li><a href="http://sphinx-doc.org/">http://sphinx-doc.org/</a></li>
+</ul>
+</li>
+</ul><h3>
+<a name="project-euler-solutions" class="anchor" href="#project-euler-solutions"><span class="octicon octicon-link"></span></a>Project Euler Solutions</h3>
+
+<ol>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/euler/blob/master/problems_001_005.ipynb">Problems_001-005</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jamesgowdy/euler/blob/master/problems_006_010.ipynb">Problems_006-010</a></li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
